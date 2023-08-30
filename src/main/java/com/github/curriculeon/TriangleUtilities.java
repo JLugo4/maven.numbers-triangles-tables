@@ -7,11 +7,12 @@ public class TriangleUtilities {
         String result = "";
             // Start looping 'numberOfRow' times
         for (int i = 0; i < numberOfRows; i++) {
-        
-            // within each iteration create a row with 'iteration number' of star
-            String row = getRow(numberOfRows);
-            // add the newly created row to the 'result'
-            result += row + "\n";
+
+                // within each iteration create a row with 'iteration number' of star
+                String row = getRow(numberOfRows);
+                // add the newly created row to the 'result'
+                result += row;
+
             //finish loop
         }
                 // return result
