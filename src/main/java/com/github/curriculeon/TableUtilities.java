@@ -10,7 +10,14 @@ public class TableUtilities {
     }
 
     public static String getMultiplicationTable(int tableSize) {
-        
+
+        String table = "";
+
+        for (int i = 0; i < tableSize; i++) {
+            String row = "";
+            
+        }
+
         return null;
     }
 }
