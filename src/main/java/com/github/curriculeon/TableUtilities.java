@@ -14,13 +14,11 @@ public class TableUtilities {
         String table = "";
 
         for (int i = 1; i < tableSize + 1; i++) {
-            for (int j = 1; j < tableSize + 1; j++) {
-
+            for (int j = 1; j <= tableSize; j++) {
+                table += String.format("%3d |", i*j);
             }
-            table += " " + i + " |";
-
+            table += "\n";
         }
-
         return table;
     }
 }
