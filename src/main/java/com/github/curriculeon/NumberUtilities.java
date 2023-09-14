@@ -108,6 +108,14 @@ public class NumberUtilities {
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-        return null;
+        StringBuilder result = new StringBuilder();
+        int currentNumber = start;
+
+        while(currentNumber < stop){
+            int exponetiaion = (int) Math.pow(currentNumber, exponent);
+            result.append(exponetiaion).append("");
+            currentNumber += step;
+        }
+        return String.valueOf(result);
     }
 }
