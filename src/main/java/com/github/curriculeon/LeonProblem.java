@@ -40,4 +40,8 @@ public class LeonProblem {
         }
         return occurrences;
     }
+
+    public String LeonProblem3(String input){
+        return null;
+    }
 }
