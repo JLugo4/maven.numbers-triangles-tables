@@ -78,4 +78,17 @@ public class AssessmentPractice {
         return -1;
     }
 
+    public static int[][] addMatrices(int[][] matrix1, int[][] matrix2){
+        int Rows = matrix1.length;
+        int Cols = matrix1[0].length;
+        int[][] result = new int[Rows][Cols];
+        for (int i = 0; i < Rows; i++) {
+            for (int j = 0; j < Cols; j++) {
+                result[i][j] = matrix1[i][j] + matrix2[i][j];
+            }
+
+        }
+        return result;
+    }
+
 }
